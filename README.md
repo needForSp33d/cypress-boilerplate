@@ -12,3 +12,7 @@ npm init -y
 npm install cypress
 
 **Getting Started**
+
+To fire-up Cypress run:
+
+npx cypress open
