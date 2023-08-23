@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/chrisbg4m/cypress-boilerplate#readme",
   "dependencies": {
-    "cypress": "^12.17.4"
+    "cypress": "^4.2.0"
   }
 }
