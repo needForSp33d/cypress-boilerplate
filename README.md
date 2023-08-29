@@ -34,12 +34,24 @@ You'll be prompted on-screen to setup your first project. You'll now see the fol
 
 **Running Tests**
 
-UI:
+Browser Execution:
 
-- To launch the application and then execute some/all tests run:
+- To launch the browser and then execute some/all tests run:
 
-npx cypress open
+npm cypress
+
+CLI Execution:
+
+- To execute headlessly, execute the following on the command line:
+
+npm test
+
+Spec-Specific Execution:
+
+To execute a specific spec file, execute the command above, and then concatenate the '--spec' argument. i.e.
+
+npm test -- --spec=cypress/integration/examples/actions.spec.js
 
 **Documentation**
 
-Framework documentation can be found here: https://www.cypress.io/ 
+Framework documentation can be found here: https://www.cypress.io/
