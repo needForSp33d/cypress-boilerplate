@@ -1,0 +1,7 @@
+# Ignore content of screenshots directory
+
+screenshots/
+
+# Ignore content of videos directory
+
+videos/
