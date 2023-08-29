@@ -7,6 +7,7 @@ Boilerplate repo for my own practice but also to serve as a base template to any
 - Mocha (by default)
 - ESLint
 - Husky
+- Test
 
 **Documentation**
 
