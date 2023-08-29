@@ -1,5 +1,17 @@
 # cypress-boilerplate
-Boilerplate repo for my own practice.
+Boilerplate repo for my own practice but also to serve as a base template to anyone for whom it would be of value.
+
+**Technologies**
+
+- Cypress
+- Mocha (by default)
+- ESLint
+- Husky
+- Testy
+
+**Documentation**
+
+Framework documentation can be found here: https://www.cypress.io/
 
 **Prerequisites**
 
@@ -51,7 +63,3 @@ Spec-Specific Execution:
 To execute a specific spec file, execute the command above, and then concatenate the '--spec' argument. i.e.
 
 npm test -- --spec=cypress/integration/examples/actions.spec.js
-
-**Documentation**
-
-Framework documentation can be found here: https://www.cypress.io/
