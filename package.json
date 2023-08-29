@@ -4,7 +4,8 @@
   "description": "Boilerplate repo for my own practice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress": "cypress open",
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
