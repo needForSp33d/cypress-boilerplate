@@ -25,11 +25,11 @@ Ensure you select Version >= 8
 
 - Create the pakcage.json file::
 
-npm init -y
+```npm init -y```
 
 - Install Cypress:
 
-npm install cypress
+```npm install cypress```
 
 - Address any fix issues.
 
@@ -37,7 +37,7 @@ npm install cypress
 
 First Execution:
 
-npx cypress open
+```npx cypress open```
 
 You'll be prompted on-screen to setup your first project. You'll now see the following have been added to your testing folder:
 
@@ -50,16 +50,16 @@ Browser Execution:
 
 - To launch the browser and then execute some/all tests run:
 
-npm cypress
+```npm cypress```
 
 CLI Execution:
 
 - To execute headlessly, execute the following on the command line:
 
-npm test
+```npm test```
 
 Spec-Specific Execution:
 
 To execute a specific spec file, execute the command above, and then concatenate the '--spec' argument. i.e.
 
-npm test -- --spec=cypress/integration/examples/actions.spec.js
+```npm test -- --spec=cypress/integration/examples/actions.spec.js```
