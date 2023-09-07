@@ -48,7 +48,7 @@ You'll be prompted on-screen to setup your first project. You'll now see the fol
 
 Browser Execution:
 
-- To launch the browser and then execute some/all tests run:
+- To launch the browser and then execute some or all tests, run:
 
 ```npm run cypress```
 
