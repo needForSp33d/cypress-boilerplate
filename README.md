@@ -6,8 +6,8 @@ Boilerplate repo for my own practice but also to serve as a base template to any
 - Cypress
 - Mocha (by default)
 - ESLint
-- Husky
-- Testy
+- Husky - tbc
+- Testy - tbc
 
 **Documentation**
 
