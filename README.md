@@ -50,7 +50,7 @@ Browser Execution:
 
 - To launch the browser and then execute some/all tests run:
 
-```npm cypress```
+```npm run cypress```
 
 CLI Execution:
 
