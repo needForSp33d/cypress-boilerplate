@@ -1,0 +1,4 @@
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# All PRs in this repo will default to Chris Briggs for Review.
+* @needForSp33d
