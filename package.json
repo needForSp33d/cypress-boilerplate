@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open",
-    "test": "cypress run"
+    "test": "cypress run",
+    "lint:all": "eslint ./ --fix",
+    "lint:check": "eslint ./"
   },
   "repository": {
     "type": "git",
