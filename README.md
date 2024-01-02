@@ -63,3 +63,5 @@ Spec-Specific Execution:
 To execute a specific spec file, execute the command above, and then concatenate the '--spec' argument. i.e.
 
 ```npm test -- --spec=cypress/integration/examples/actions.spec.js```
+
+```test push```
