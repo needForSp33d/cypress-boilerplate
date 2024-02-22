@@ -23,7 +23,7 @@ Ensure you select Version >= 8
 
 - Navigate to the location you wish to setup your tests.
 
-- Create the pakcage.json file::
+- Create the package.json file::
 
 ```npm init -y```
 
