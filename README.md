@@ -60,6 +60,4 @@ CLI Execution:
 
 Spec-Specific Execution:
 
-To execute a specific spec file, execute the command above, and then concatenate the '--spec' argument. i.e.
-
-```npm test -- --spec=cypress/integration/examples/actions.spec.js```
+Just use the Cypress Studio feature for now via ```npx cypress open```
