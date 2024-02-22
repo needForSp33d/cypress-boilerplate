@@ -15,6 +15,8 @@ Framework documentation can be found here: https://www.cypress.io/
 
 **Prerequisites**
 
+- Clone the repo and cd inside the folder.
+
 - Ensure you have NodeJS and NPM installed:
 
 ```node -v```
@@ -26,29 +28,6 @@ Framework documentation can be found here: https://www.cypress.io/
 Package installer for NodeJS (npm included) here: https://nodejs.org/en/download
 
 Ensure you select Version >= 8
-
-- Navigate to the location you wish to setup your tests.
-
-- Delete the node modules folder:
-
-```rm -r node_modules```
-
-- Reinstall node:
-
-```npm install```
-
-- Address any fix issues.
-
-**Getting Started**
-
-First Execution:
-
-```npx cypress open```
-
-You'll be prompted on-screen to setup your first project. You'll now see the following have been added to your testing folder:
-
-- A folder called 'cypress'.
-- It will populate with example tests and initial folder structure.
 
 **Running Tests**
 
