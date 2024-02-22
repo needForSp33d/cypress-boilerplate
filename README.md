@@ -17,19 +17,25 @@ Framework documentation can be found here: https://www.cypress.io/
 
 - Ensure you have NodeJS and NPM installed:
 
+```node -v```
+
+```npm -v ```
+
+- If not, install:
+
 Package installer for NodeJS (npm included) here: https://nodejs.org/en/download
 
 Ensure you select Version >= 8
 
 - Navigate to the location you wish to setup your tests.
 
-- Create the package.json file::
+- Delete the node modules folder:
 
-```npm init -y```
+```rm -r node_modules```
 
-- Install Cypress:
+- Reinstall node:
 
-```npm install cypress```
+```npm install```
 
 - Address any fix issues.
 
@@ -54,10 +60,6 @@ Browser Execution:
 
 CLI Execution:
 
-- To execute headlessly, execute the following on the command line:
+- To execute all tests headlessly, execute the following on the command line:
 
 ```npm test```
-
-Spec-Specific Execution:
-
-Just use the Cypress Studio feature for now via ```npx cypress open```
